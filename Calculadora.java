@@ -1,11 +1,11 @@
 public class Calculadora {
-    double result = 0;
+    private double result = 0;
 
-    public void suma(float num){result += num;}
-    public void resta(float num){result -= num;}
-    public void multiplicacion(float num){result *= num;}
-    public void division(float num){result /= num;}
-    public void raiz(){result = Math.sqrt(result);}
+    public void suma(double num){result += num;}
+    public void resta(double num){result -= num;}
+    public void multiplicacion(double num){result *= num;}
+    public void division(double num){result /= num;}
     public double igual(){return result;}
     public void reset(){result = 0;}
+    public void setResult(double num){result = num;}
 }
