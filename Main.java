@@ -21,6 +21,10 @@ public class Main {
                 e.printStackTrace();
             }
 
+            if(input.equals("end")){
+                break;
+            }
+
             String[] inputs = input.split(" ");
             List numbers = new ArrayList();
             List actions = new ArrayList();
